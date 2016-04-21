@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:clickable="false"
+    android:focusableInTouchMode="false">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2e69a5"
+        android:id="@+id/linearLayout"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Laboratórios"
+                android:id="@+id/textView"
+                android:textColor="#e1e1e1"
+                android:layout_gravity="left"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|right">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_card"
+                android:layout_marginRight="10dp">
+
+                <Spinner
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/sp_turno"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:paddingLeft="5dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_labs"
+        android:layout_below="@+id/linearLayout"
+        android:paddingTop="5dp"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/rl_telaLoading">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb_loading"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="false"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/rl_telaErro">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Verifique sua conexão com a Internet"
+                android:id="@+id/tv_erro"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentar Novamente"
+                android:id="@+id/bt_refresh" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+
