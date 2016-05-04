@@ -63,7 +63,8 @@
         android:id="@+id/lv_labs"
         android:layout_below="@+id/linearLayout"
         android:paddingTop="5dp"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:background="#eeeeee" />
 
     <RelativeLayout
         android:layout_width="match_parent"
