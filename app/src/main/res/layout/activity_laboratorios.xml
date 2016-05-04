@@ -63,13 +63,15 @@
         android:id="@+id/lv_labs"
         android:layout_below="@+id/linearLayout"
         android:paddingTop="5dp"
-        android:visibility="invisible" />
+        android:visibility="visible" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:id="@+id/rl_telaLoading">
+        android:id="@+id/rl_telaLoading"
+        android:layout_below="@+id/linearLayout"
+        android:visibility="invisible">
 
         <ProgressBar
             android:layout_width="wrap_content"
@@ -77,8 +79,8 @@
             android:id="@+id/pb_loading"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:indeterminate="false"
-            android:visibility="visible" />
+            android:indeterminate="false" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -86,7 +88,8 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:visibility="invisible"
-        android:id="@+id/rl_telaErro">
+        android:id="@+id/rl_telaErro"
+        android:layout_below="@+id/linearLayout">
 
         <LinearLayout
             android:orientation="vertical"
