@@ -92,7 +92,7 @@ public class LaboratoriosActivity extends AppCompatActivity {
             System.out.println(host+labs+Turno.getDiaAtual()+turnoParam);
             HttpGet url= new HttpGet(host+labs+Turno.getDiaAtual()+turnoParam);
 
-            html = new Pagina(con.get(url));
+            html = new Pagina(con.get(url,"UTF-8"));
             return html.toString();
         }
 
