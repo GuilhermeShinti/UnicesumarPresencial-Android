@@ -16,14 +16,14 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_card"
             android:paddingBottom="10dp"
-            android:layout_marginTop="5dp">
+            android:layout_marginTop="5dp" >
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="5dp"
-                android:layout_marginTop="5dp">
+                android:layout_marginTop="5dp" >
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -48,19 +48,19 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:layout_marginBottom="5dp">
+                android:layout_marginBottom="5dp" >
 
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp">
+                    android:layout_marginRight="10dp" >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="1º"
-                        android:id="@+id/textView2" />
+                        android:id="@+id/textView11" />
                 </FrameLayout>
 
                 <TextView
@@ -69,7 +69,6 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:id="@+id/tv_primeiro"
                     android:text="DISPONIVEL" />
-
             </LinearLayout>
 
             <LinearLayout
@@ -77,19 +76,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="10dp"
-                android:paddingRight="10dp">
+                android:paddingRight="10dp" >
 
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp">
+                    android:layout_marginRight="10dp" >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="2º"
-                        android:id="@+id/textView3" />
+                        android:id="@+id/textView13" />
                 </FrameLayout>
 
                 <TextView
@@ -98,9 +97,7 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="DISPONIVEL"
                     android:id="@+id/tv_segundo" />
-
             </LinearLayout>
-
         </LinearLayout>
     </LinearLayout>
 
