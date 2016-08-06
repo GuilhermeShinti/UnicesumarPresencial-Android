@@ -26,7 +26,7 @@ public class NotasActivity extends AppCompatActivity {
     }
 
     public void loading() {
-        if (Conexao.verificaConexao(this)) {
+        if (Conexao.verificaConexao(getBaseContext())) {
             Disciplina.array.clear();
             Disciplina.notas.clear();
             lv_disciplinas.setVisibility(View.INVISIBLE);

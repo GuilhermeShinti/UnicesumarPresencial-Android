@@ -25,7 +25,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Curso"
                 android:id="@+id/tv_curso"
                 android:textColor="#FFF" />
 
@@ -33,7 +32,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="RA - NOME"
                 android:id="@+id/tv_aluno"
                 android:singleLine="false"
                 android:textColor="#FFF" />
@@ -50,9 +48,16 @@
                 android:id="@+id/iv_refresh"
                 android:src="@drawable/ic_refresh_white_18dp"
                 android:layout_gravity="center_vertical|right"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"
+                android:visibility="visible" />
         </FrameLayout>
     </LinearLayout>
+
+    <!--<include-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/login"-->
+        <!--android:layout_below="@+id/linearLayout2" />-->
 
     <include
         android:layout_width="match_parent"
@@ -72,5 +77,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lv_disciplinas"
-        android:layout_below="@+id/linearLayout2" />
+        android:layout_below="@+id/linearLayout2"
+        android:visibility="invisible" />
 </RelativeLayout>
