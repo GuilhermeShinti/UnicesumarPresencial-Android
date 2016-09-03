@@ -1,4 +1,4 @@
-package guishinti.unicesumarpresencial;
+package br.com.guis.unicesumaronline;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -66,8 +66,9 @@ public class NotasActivity extends AppCompatActivity {
 
         Pagina html;
         Conexao con = new Conexao();
-        private String host = "https://aluno.unicesumar.edu.br";
-        private String notas = "/lyceump/aonline/notas_freq.asp";
+        private String host = "https://aluno.unicesumar.edu.br/";
+        private String notas = "lyceump/aonline/notas_freq.asp";
+        private String freq = "lyceump/aonline/ti_resumo_aulas.asp?disc=";
 
         protected String doInBackground(String... paramVarArgs) {
             HttpGet url = new HttpGet(host + notas);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="guishinti.unicesumarpresencial">
+    package="br.com.guis.unicesumaronline">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="br.com.guis.unicesumaronline.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LaboratoriosActivity"
+            android:name="br.com.guis.unicesumaronline.LaboratoriosActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name="br.com.guis.unicesumaronline.LoginActivity" />
         <activity
-            android:name=".NotasActivity"
+            android:name="br.com.guis.unicesumaronline.NotasActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"/>
     </application>
 

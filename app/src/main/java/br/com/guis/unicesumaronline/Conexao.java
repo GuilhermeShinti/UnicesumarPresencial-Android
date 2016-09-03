@@ -1,4 +1,4 @@
-package guishinti.unicesumarpresencial;
+package br.com.guis.unicesumaronline;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

@@ -1,4 +1,4 @@
-package guishinti.unicesumarpresencial;
+package br.com.guis.unicesumaronline;
 
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -83,8 +83,9 @@ public class LaboratoriosActivity extends AppCompatActivity {
 
         Pagina html;
         Conexao con = new Conexao();
-        private String host = "http://www.unicesumar.edu.br";
-        private String labs = "/informaticav2/horario.php?dados=";
+        private String host = "https://app.unicesumar.edu.br/";
+        //private String labs = "informaticav2/horario.php?dados=";  <--- CAMINHO ANTIGO
+        private String labs = "presencial/forms/informatica/horario.php?dados=";
 
         @Override
         protected String doInBackground(String... params) {

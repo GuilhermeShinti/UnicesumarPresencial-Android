@@ -1,4 +1,4 @@
-package guishinti.unicesumarpresencial;
+package br.com.guis.unicesumaronline;
 
 import org.junit.Test;
 
