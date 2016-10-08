@@ -38,7 +38,7 @@ public class PaginaNotas extends Pagina {
 //            Elements colInfo = tableNota.select("tr").get(0).select("td");
         Elements numCol=tableNota.select("tr").get(i).select("td");
 
-        for (int j=2;j<numCol.size()-1;j++){
+        for (int j=2;j<numCol.size();j++){
             String nota = numCol.get(j).text().toString();
 //                String info = colInfo.get(j).text().toString().toUpperCase();
 
