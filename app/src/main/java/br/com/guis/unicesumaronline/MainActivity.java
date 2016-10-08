@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//        Intent it = new Intent(MainActivity.this, LaboratoriosActivity.class);
-//        startActivity(it);
-//        finish();
-//    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Intent it = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(it);
+        finish();
+    }
 
 
 }
