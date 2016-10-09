@@ -2,7 +2,7 @@
 
 Aplicativo Android não oficial para alunos da Unicesumar acessarem à recursos do menu do aluno como notas e talvez em futuras atualizações
 faltas e disponibilidade de laboratórios.
-**Para baixar [clique aqui](https://drive.google.com/file/d/0B7cyPe6K_rNibTIwVkRjTEEwNDQ/view?usp=sharing)**
+**Para baixar [clique aqui](https://drive.google.com/file/d/0B7cyPe6K_rNiOHotY1pXa3JGU3M/view?usp=sharing)**
 
 ##Instalação
 
